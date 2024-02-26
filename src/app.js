@@ -28,7 +28,8 @@ window.onload = function() {
   document.getElementById("top").innerHTML = stickRandom;
   document.getElementById("number").innerHTML = numberRandom;
   document.getElementById("bottom").innerHTML = stickRandom;
-  if (stickRandom === "♥" || stickRandom === "♥") {
+
+  if (stickRandom === "♥" || stickRandom === "♦") {
     document.getElementById("top").style.color = "red";
     document.getElementById("number").style.color = "red";
     document.getElementById("bottom").style.color = "red";
